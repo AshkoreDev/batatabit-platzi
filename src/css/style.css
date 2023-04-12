@@ -11,9 +11,9 @@
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -38,12 +38,12 @@ body::-webkit-scrollbar-thumb {
 header {
   min-width: 320px;
   height: 334px;
-  position: relative;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  position: relative;
   background: linear-gradient(
     208.83deg,
     var(--black) 16.69%,
@@ -66,18 +66,18 @@ header {
 }
 
 h1 {
+  color: var(--just-white);
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--just-white);
 }
 
 .header--title-container p {
   margin-top: 25px;
+  color: var(--soft-orange);
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: var(--soft-orange);
 }
 
 .header--button {
@@ -85,17 +85,16 @@ h1 {
   height: 48px;
   margin-top: 35px;
   padding: 15px;
-  position: absolute;
-  left: calc(50% - 118px);
-  top: 270px;
-  display: block;
-  border: none;
-  border-radius: 4px;
+  color: var(--black);
   font-size: 1.4rem;
   font-weight: bold;
-  color: var(--black);
+  display: block;
+  position: absolute;
+  top: 270px;
+  left: calc(50% - 118px);
+  border: transparent;
+  border-radius: 4px;
   background-color: var(--off-white);
-  /* Sombra */
   box-shadow: 3px 4px 6px 3px rgba(89, 73, 30, 0.16);
 }
 
@@ -132,18 +131,18 @@ main {
 
 .main-exchange-container h2 {
   margin-bottom: 30px;
+  color: var(--black);
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--black);
 }
 
 .main-exchange-container--title > p {
   margin-bottom: 30px;
+  color: #676666;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.6rem;
-  color: #676666;
 }
 
 .main-tables-container {
@@ -171,8 +170,8 @@ main {
   margin-bottom: 16px;
   font-size: 2rem;
   font-weight: bold;
-  line-height: 2.3rem;
   text-align: center;
+  line-height: 2.3rem;
 }
 
 .currency-table--title {
@@ -202,12 +201,12 @@ main {
 .currency-table--container td,
 .commissions-table--container td {
   width: 50%;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1.9rem;
-  text-align: left;
   padding-left: 20px;
   color: var(--grey);
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.9rem;
   background-color: var(--just-white);
 }
 
@@ -233,10 +232,10 @@ main {
 
 .tableCurrency__right,
 .tableCommissions__right {
+  color: #757575;
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.7rem;
-  color: #757575;
 }
 
 .icon-table {
@@ -264,10 +263,10 @@ main {
 
 .currency-table--date p,
 .commissions-table--date p {
+  color: var(--warm-black); 
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 300;
-  color: var(--warm-black); /**/
 }
 
 .main-product-detail {
@@ -283,8 +282,8 @@ main {
   width: 40.57px;
   height: 24.01px;
   position: absolute;
-  left: calc(50% - 20px);
   top: -10px;
+  left: calc(50% - 20px);
 }
 
 .product-detail--title {
@@ -297,18 +296,18 @@ main {
 
 .product-detail--title h2 {
   margin-bottom: 20px;
+  color: var(--just-white);
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--just-white);
 }
 
 .product-detail--title p {
   margin-bottom: 20px;
+  color: #9c9c9c;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: #9c9c9c;
 }
 
 .product-detail--card {
@@ -337,17 +336,17 @@ main {
 
 .product--card_title {
   margin-bottom: 15px;
+  color: var(--just-white);
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 1.8rem;
-  color: var(--just-white);
 }
 
 .product--card_body {
+  color: #9c9c9c;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: #9c9c9c;
 }
 
 .bitcoin-img-container {
@@ -362,10 +361,10 @@ main {
 
 .bitcoin-img-container h2 {
   padding-top: 60px;
+  color: var(--just-white);
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--just-white);
 }
 
 .main-plans-container {
@@ -384,18 +383,18 @@ main {
 
 .plans--title h2 {
   padding-top: 20px;
+  color: var(--black);
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--black);
 }
 
 .plans--title p {
   padding-top: 30px;
+  color: #676666;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: #676666;
 }
 
 .plans-container--slider {
@@ -436,47 +435,47 @@ main {
   height: 31px;
   margin: 0;
   padding: 7px;
-  position: absolute;
-  left: calc(50% - 60px);
-  top: -15px;
-  font-weight: 500;
+  color: #333232;
   font-size: 1.2rem;
+  font-weight: 500;
+  position: absolute;
+  top: -15px;
+  left: calc(50% - 60px);
   border-radius: 8px;
   background-color: var(--bitcoin-orange);
-  color: #333232;
 }
 
 .plan-card--title {
   padding-top: 30px;
+  color: black;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: black;
 }
 
 .plan-card--price {
   padding: 5px 0;
+  color: black;
   font-size: 5.2rem;
   font-weight: bold;
   line-height: 5.3rem;
-  color: black;
 }
 
 .plan-card--price::before {
-  position: absolute;
-  top: 22%;
-  left: calc(50% - 42px);
   content: "$";
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1;
+  position: absolute;
+  top: 22%;
+  left: calc(50% - 42px);
 }
 
 .plan-card--saving {
   padding-top: 0;
+  color: #757575;
   font-size: 1.2rem;
   font-weight: 300;
-  color: #757575;
 }
 
 .plan-card--ca {
@@ -484,14 +483,13 @@ main {
   height: 48px;
   margin: 60px 0 10px;
   border-radius: 4px;
+  color: var(--black);
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.8rem;
-  font-family: "DM Sans", sans-serif;
   cursor: pointer;
-  color: var(--black);
-  background: var(--off-white);
   border: 2px solid var(--bitcoin-orange);
+  background: var(--off-white);
 }
 
 .plan-card--ca img {
@@ -503,8 +501,8 @@ footer {
   min-width: 320px;
   height: 150px;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-evenly;
   background-color: var(--bitcoin-orange);
 }
 
@@ -514,10 +512,10 @@ footer {
 }
 
 .left a {
-  font-weight: 500;
-  font-size: 1.4rem;
-  line-height: 1.8rem;
   color: #333232;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
 }
 
 .left a:hover {
